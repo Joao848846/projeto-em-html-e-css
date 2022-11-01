@@ -9,7 +9,7 @@
 html, body{
 
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -109,15 +109,15 @@ a{
 /*ao passar o mouso sobre o link*/
 
 a:hover{
-    color: yellowgreen;
+    color: rgba(25, 27, 26, 0.767);
     border-right: 2px solid #fff;
 
 }.menu{
     position: relative;
     list-style: none;
-    width: 100px;
+    width: 182px;
     padding: 40px 0;
-    margin: auto;
+    margin: 5px;
 }
 
 .menu::before{
@@ -125,7 +125,7 @@ a:hover{
     content: "";
     position:   absolute;
     z-index: 10;
-    background: #5b9780;
+    background: #131313b4;
     height: 100%;
     width: 182px;
     margin-top: -40px;
@@ -135,16 +135,16 @@ a:hover{
 }
 
 .menu li{
-    height: 50px;
+    height: 80px;
     width: 100%;
 }
 
 .menu li .submenu{
     width: 152px;
-    height: 220px;
-    padding: 15px;
-    margin-top: 16px;
-    background: yellowgreen;
+    height: 350px;
+    padding: 20px;
+    margin-top: 50px;
+    background:  dimgray;
     overflow: hidden;
     color: #fff;
     text-align: right;
@@ -153,6 +153,10 @@ a:hover{
     left: 0;
     opacity: 0;
 
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+
     -webkit-transition: 1s lef, 1s width, 1s opacity;
     transition: 1s left, 1s width, 1s opacity;
 
@@ -160,7 +164,7 @@ a:hover{
     border-top-right-radius: 10px;
 
     -webkit-border-bottom-rigth-radius: 10px;
-    border-bottom-rigth-radius: 10px;
+     border-bottom-right-radius: 10px;
 
 }
 
@@ -168,8 +172,11 @@ a:hover{
     left: 182px;
     opacity: 1;
     width: 276px;
-    
 }
 
+main{
+
+    margin-top: 40px;
+    margin-right:1155px;}
 
     
