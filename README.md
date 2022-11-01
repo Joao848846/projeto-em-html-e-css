@@ -1,2 +1,159 @@
 # projeto em html e css
  Projeto para aprendizado
+ 
+ <!DOCTYPE html>
+<html lang=" pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cordel</title>
+    <link rel="stylesheet" type="text/css" href="cordel.css">
+</head>
+<body>
+    
+    <header>
+        <h1>
+            Cordel Moderno
+        </h1>
+
+        <p>
+            Miltor Duarte
+        </p>
+    </header>
+   <main>
+    <ul class="menu">
+        <li>
+            <a href="">Home</a>
+            <div class="submenu">
+                <h1>HOME</h1>
+                <p>O cordel nasceu em Portugal, no século XVI, durante o Renascimento. Esse foi o momento no qual esse formato de impressão começou a se popularizar. Isso porque, até então, as histórias, poesias e contos eram repassadas apenas por meio da oralidade. Dessa forma, os autores de cordéis expunham suas criações em bancas, feiras e mercados. Esse hábito deu nome ao movimento literário, visto que para sua comercialização, as obras eram penduradas em cordões </p>
+            </div>
+        </li>
+
+        <li>
+            <a href="">Sobre</a>
+            <div class="submenu">
+                <h1>Oralidade</h1>
+                <p> como já mencionado, a literatura de cordel remete ao início da comercialização de folhetos impressos. Como essa tradição surgiu em uma época em que os relatos orais eram muito fortes, ela carrega essa característica em sua narrativa até os dias de hoje; </p>
+            </div>
+
+        </li>
+
+        <li>
+            <a href="">Notícias</a>
+            <div class="submenu">
+                <h1> País</h1>
+                <p>A literatura de cordel é um dos gêneros literários mais tradicionais do país. Apesar de ser muito comum no Brasil, ele não se originou aqui. Descendente de produções literárias europeias, encontrou solo fértil para se desenvolver por aqui, sobretudo no Nordeste no século XIX.  </p>
+            </div>
+
+        </li>
+
+        <li>
+            <a href="">Obras</a>
+            <div class="submenu">
+                <h1> O poeta da roça</h1>
+                <p>Monitorando a disciplina Literatura de Cordel, dentro do Programa Mais Educação, na Escola Padre Frederico Bezerra Maciel, no Distrito de Itã, Carnaíba-PE, trabalhei esta semana linguagem formal e linguagem coloquial. E aí nada melhor do que apresentar aos alunos o mestre Patativa do Assaré. E nada mais adequado do que o poema O poeta do roça.</p>
+            </div>
+
+        </li>
+
+        <li>
+            <a href="">Contato</a>
+            <div class="submenu">
+                <h1>CONTATO</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, explicabo tenetur est commodi nostrum optio nam, culpa accusantium quidem quibusdam doloribus maiores voluptas nisi ipsum sit laboriosam, vero debitis. Quo?</p>
+            </div>
+        </li>
+    </ul>   
+   </main>
+
+    <section class="normal">
+
+        <p>
+            <br>Estou ficando cansado</br>   
+            <br>Da tal tecnologia </br>
+            <br>Só se fala por e-mail </br>
+            <br>Mensagem curta e fria </br>
+            <br>Twitter e Facebook </br>
+            <br>Antes que eu caduque </br>
+            <br>Vou dizer tudo em poesia.</br>
+        </p>
+
+    </section>
+
+    <section class="imagem" id="cordel001">
+
+        <p>
+            <br>
+                
+                    Não é mais como era antes
+            </br>
+                <br>É tudo abreviado</br>
+                <br>"Você" só tem duas letras</br>
+                <br>Para declarar o amor</br>
+                <br>Basta botar uma flor</br>
+                <br>E um coração desenhado.</br>
+           
+        </p>
+
+    </section>
+
+    <section class="normal">
+        <p>
+            <br>Arroba agora não pesa </br>
+            <br>É parte de um endereço </br>
+            <br>Ponto final nem se usa</br>
+            <br>Ou vai até no começo</br>
+            <br>Agora é .com</br>
+            <br>Se o saite é muito bom</br>
+            <br>Ele vale um alto preço.</br>
+        </p>
+
+        <p>
+            <br>O emoticom é um risco </br>
+            <br>Tem símbolo para tudo</br> 
+            <br>Ponto e vírgula e um asterisco </br>
+            <br>Um beijo significa </br>
+            <br>Decifre esse rabisco.</br>
+        </p>
+
+    </section>
+
+    <section class="imagem" id="cordel002">
+        <p>
+            <br>Tenho saudade das cartas </br>
+            <br>Escritas com a própria mão </br>
+            <br>Mandava no mês de Junho </br>
+            <br>Só chegava no Verão </br>
+            <br>Mas matava a saudade </br>
+            <br>Era texto de verdade </br>
+            <br>Nas linhas do coração.</br>
+        </p>
+    </section>
+
+    <section class="normal">
+        <p>
+            <br>Agora, escrevo e envio  </br>
+            <br>Chegando na mesma hora  </br>
+            <br>Mas quando vou prosear  </br>
+            <br>A pessoa foi embora </br> 
+            <br>Abriu outro aplicativo  </br>
+            <br>O mundo ficou cativo  </br>
+            <br>Da tecnologia do agora.</br>
+        </p>
+
+        <p>
+            <br>Felizmente, pra orar </br> 
+            <br>Não precisa de internet  </br>
+            <br>Deus escuta todo mundo</br>  
+            <br>Se quiser, faça esse teste  </br>
+            <br>Dois pontos são dois joelhos  </br>
+            <br>Seus lábios são aparelhos  </br>
+            <br>Deixe que Deus interprete.</br>
+        </p>
+    </section>
+    
+    
+</body>
+</html>
