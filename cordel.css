@@ -183,8 +183,9 @@ footer{
     font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-color:antiquewhite;
+    background-color:rgba(194, 136, 36, 0.747);
     border-radius: 2px;
+    color: white;
     
 }
     
